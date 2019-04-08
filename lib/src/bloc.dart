@@ -50,7 +50,7 @@ class ThemeBloc extends Bloc<ThemeEvent, ThemeState> {
     final secretKey = await getKey("secretKey");
 
     if (secretKey != null) {
-      final url = "http://192.168.2.200:8000/project/$secretKey";
+      final url = "http://bfbadf8b.ngrok.io/project/$secretKey";
       final response = await http.get(url);
 
       await setKey("defaultTheme", response.body);
