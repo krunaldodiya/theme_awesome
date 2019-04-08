@@ -1,8 +1,8 @@
 name: awesome_theme
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.1+1
 author: "Krunal Dodiya<kunal.dodiya1@gmail.com>"
-homepage: "https://github.com/kunaldodiya/flutter-theme-awesome"
+homepage: "https://github.com/kunaldodiya/theme_awesome"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
